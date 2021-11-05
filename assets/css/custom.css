@@ -1,0 +1,37 @@
+/*
+Custom CSS for TemplateMo 561 Purple Buzz
+
+https://templatemo.com/tm-561-purple-buzz
+
+*/
+
+.responsive_img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    /* Prevent the image from stretching. So it crops the image to prevent from awkward stretching */
+}
+
+.vijayFont{
+    color:green !important;
+    border-color: gold !important;
+}
+
+@font-face {
+    font-family: MeeraInimai-Regular;
+    src: url(../fonts/MeeraInimai-Regular.ttf);
+  }
+  
+  div {
+    font-family: MeeraInimai-Regular;
+  }
+
+  .btn-outline-primary:active, .btn-outline-primary:hover {
+    color: #f6f9fe;
+    background-color: #eff14d;
+    border-color: #4232c2;
+}
+
+.footerLogos{
+    clear:left !important;
+}
